@@ -1,0 +1,9 @@
+{
+  "anchor_requested_utc": "2026-09-20T17:55:59+00:00",
+  "manifest_sha256": "4802113aa79e7cf11ddb9c15a542f6ea651a57bf5deb36cdfbb81d176ff81a28",
+  "ots_exit": 0,
+  "ots_output": "Submitting to remote calendar https://a.pool.opentimestamps.org\nSubmitting to remote calendar https://b.pool.opentimestamps.org\nSubmitting to remote calendar https://a.pool.eternitywall.com\nSubmitting to remote calendar https://ots.btc.catallaxy.com\n",
+  "proof_present": true,
+  "qualifies_if_confirmed_before_utc": "2026-09-21T00:00:00+00:00",
+  "valid_date": "2026-09-21"
+}

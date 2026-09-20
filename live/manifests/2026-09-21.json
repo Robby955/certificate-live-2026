@@ -1,0 +1,255 @@
+{
+  "frozen": {
+    "catalog_sha256": "06e2fe7b088f0995e40229c0c3b80c4102214e5c29144d9a3d28e61cbe9e8d7d",
+    "design_sha256": "f1d16a8291f17f1fc949b3cf18a3450048a56b56d3ff3b64282f943f4effac00",
+    "model_sha256": "b5752a650a9acf00be466f84f9df57b2750372f28c7418dd71d06514da1b7155"
+  },
+  "predictions_sha256": "9dbf412e188844d632e7f004e84d62efaecaf9c369ddb1f8ed10fdb7a34a1278",
+  "raw_file": "live/raw/forecast-2026-09-20.json",
+  "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+  "rows": [
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Auckland",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 63351,
+      "constant_fit_q": 30665,
+      "forecast_mm": "149/5",
+      "location": "Bangkok",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Beijing",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 40805,
+      "constant_fit_q": 30665,
+      "forecast_mm": "9/10",
+      "location": "Berlin",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 35939,
+      "constant_fit_q": 30665,
+      "forecast_mm": "1/10",
+      "location": "Bogota",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Cairo",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 35939,
+      "constant_fit_q": 30665,
+      "forecast_mm": "1/10",
+      "location": "Cape_Town",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Dubai",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 63487,
+      "constant_fit_q": 30665,
+      "forecast_mm": "47/5",
+      "location": "Lagos",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Lima",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "London",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Los_Angeles",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Madrid",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 40805,
+      "constant_fit_q": 30665,
+      "forecast_mm": "4/5",
+      "location": "Mexico_City",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Mumbai",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 40805,
+      "constant_fit_q": 30665,
+      "forecast_mm": "7/10",
+      "location": "Nairobi",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 58908,
+      "constant_fit_q": 30665,
+      "forecast_mm": "13/10",
+      "location": "New_York",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Paris",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Sao_Paulo",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 58908,
+      "constant_fit_q": 30665,
+      "forecast_mm": "19/10",
+      "location": "Singapore",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 58908,
+      "constant_fit_q": 30665,
+      "forecast_mm": "11/10",
+      "location": "Sydney",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 63351,
+      "constant_fit_q": 30665,
+      "forecast_mm": "1229/10",
+      "location": "Tokyo",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Toronto",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    },
+    {
+      "calibrated_gfs_q": 13537,
+      "constant_fit_q": 30665,
+      "forecast_mm": "0",
+      "location": "Vancouver",
+      "predicted_utc": "2026-09-20T17:55:57+00:00",
+      "raw_sha256": "3cbb8a3bc3fe7496ab38e21e6bb861c4234740cc61b36b57974f6848cca2596b",
+      "run": "2026-09-20T00:00Z",
+      "valid_date": "2026-09-21"
+    }
+  ],
+  "run": "2026-09-20T00:00Z",
+  "valid_date": "2026-09-21",
+  "written_utc": "2026-09-20T17:55:57+00:00"
+}

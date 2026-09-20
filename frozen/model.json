@@ -1,0 +1,40 @@
+{
+  "bin_counts": [
+    {
+      "count": 303,
+      "positive": 62,
+      "probability": "63/305"
+    },
+    {
+      "count": 29,
+      "positive": 16,
+      "probability": "17/31"
+    },
+    {
+      "count": 51,
+      "positive": 32,
+      "probability": "33/53"
+    },
+    {
+      "count": 87,
+      "positive": 79,
+      "probability": "80/89"
+    },
+    {
+      "count": 30,
+      "positive": 30,
+      "probability": "31/32"
+    },
+    {
+      "count": 28,
+      "positive": 28,
+      "probability": "29/30"
+    }
+  ],
+  "constant_count": 528,
+  "constant_positive": 247,
+  "constant_probability": "124/265",
+  "design_sha256": "f1d16a8291f17f1fc949b3cf18a3450048a56b56d3ff3b64282f943f4effac00",
+  "fit_commit": "8eed928794274476a5e471fb32786524c95a1e8a",
+  "fit_manifest_sha256": "719e11e8abec275d678fd533b4d3f61bee466339af6baf6bc1348a959af5ad89"
+}

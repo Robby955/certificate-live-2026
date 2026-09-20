@@ -1,0 +1,209 @@
+{
+  "aggregation": "preceding-hour amounts with ending timestamps 01:00 through next-day 00:00 UTC, exactly 24 entries",
+  "calibration": {
+    "intervals": "first [0,0]; subsequent (previous_edge,upper_edge]",
+    "kind": "fixed_bin_laplace",
+    "pooling": "all training cities and dates; no city-specific fits",
+    "probability": "(positive_training_labels_in_bin+1)/(training_rows_in_bin+2)",
+    "upper_edges_mm": [
+      "0",
+      "1/5",
+      "1",
+      "5",
+      "10",
+      "infinity"
+    ]
+  },
+  "catalog_sha256": "06e2fe7b088f0995e40229c0c3b80c4102214e5c29144d9a3d28e61cbe9e8d7d",
+  "comparators": {
+    "capping": "none",
+    "gamma_alpha_each_model": "1/40",
+    "gamma_rho": "63/5",
+    "same_q100_settings": true,
+    "stitched_alpha_each_model": "1/40"
+  },
+  "constant": {
+    "probability": "(all_positive_training_labels+1)/(all_training_rows+2)"
+  },
+  "delta": "1/20",
+  "evaluation": {
+    "valid_date_end": "2026-09-10",
+    "valid_date_start": "2026-05-02"
+  },
+  "fetch_policy": {
+    "max_attempts_per_request": 3,
+    "minimum_interval_seconds": 0.35,
+    "retry_statuses": [
+      429,
+      500,
+      502,
+      503,
+      504
+    ],
+    "sequential": true,
+    "stop_on_other_errors": true
+  },
+  "fit": {
+    "valid_date_end": "2026-04-24",
+    "valid_date_start": "2026-04-03"
+  },
+  "forecast": {
+    "endpoint": "https://single-runs-api.open-meteo.com/v1/forecast",
+    "forecast_days": 3,
+    "hourly": "precipitation",
+    "model": "ncep_gfs_global",
+    "precipitation_unit": "mm",
+    "run": "previous UTC day 00:00",
+    "timezone": "UTC"
+  },
+  "locations": [
+    {
+      "id": "Auckland",
+      "latitude": -36.8485,
+      "longitude": 174.7633
+    },
+    {
+      "id": "Bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018
+    },
+    {
+      "id": "Beijing",
+      "latitude": 39.9042,
+      "longitude": 116.4074
+    },
+    {
+      "id": "Berlin",
+      "latitude": 52.52,
+      "longitude": 13.405
+    },
+    {
+      "id": "Bogota",
+      "latitude": 4.711,
+      "longitude": -74.0721
+    },
+    {
+      "id": "Cairo",
+      "latitude": 30.0444,
+      "longitude": 31.2357
+    },
+    {
+      "id": "Cape_Town",
+      "latitude": -33.9249,
+      "longitude": 18.4241
+    },
+    {
+      "id": "Dubai",
+      "latitude": 25.2048,
+      "longitude": 55.2708
+    },
+    {
+      "id": "Lagos",
+      "latitude": 6.5244,
+      "longitude": 3.3792
+    },
+    {
+      "id": "Lima",
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    },
+    {
+      "id": "London",
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    },
+    {
+      "id": "Los_Angeles",
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    },
+    {
+      "id": "Madrid",
+      "latitude": 40.4168,
+      "longitude": -3.7038
+    },
+    {
+      "id": "Mexico_City",
+      "latitude": 19.4326,
+      "longitude": -99.1332
+    },
+    {
+      "id": "Mumbai",
+      "latitude": 19.076,
+      "longitude": 72.8777
+    },
+    {
+      "id": "Nairobi",
+      "latitude": -1.2921,
+      "longitude": 36.8219
+    },
+    {
+      "id": "New_York",
+      "latitude": 40.7128,
+      "longitude": -74.006
+    },
+    {
+      "id": "Paris",
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    {
+      "id": "Sao_Paulo",
+      "latitude": -23.5505,
+      "longitude": -46.6333
+    },
+    {
+      "id": "Singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    },
+    {
+      "id": "Sydney",
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    },
+    {
+      "id": "Tokyo",
+      "latitude": 35.6762,
+      "longitude": 139.6503
+    },
+    {
+      "id": "Toronto",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    {
+      "id": "Vancouver",
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  ],
+  "missingness": "stop if any required hour or value missing, duplicate or invalid; no row deletion or model/source fallback",
+  "models": [
+    "constant_fit",
+    "calibrated_gfs"
+  ],
+  "order": "UTC valid date then alphabetical city id",
+  "outcome": {
+    "endpoint": "https://archive-api.open-meteo.com/v1/archive",
+    "event_daily_sum_mm_at_least": "1/5",
+    "hourly": "precipitation",
+    "kind": "reanalysis_proxy_current_snapshot",
+    "model": "era5",
+    "precipitation_unit": "mm",
+    "timezone": "UTC"
+  },
+  "prediction_scale": 65535,
+  "previous_failed_study": "q101-published-probability",
+  "prior": {
+    "calibrated_gfs": "1/2",
+    "constant_fit": "1/2"
+  },
+  "provenance": "DECLARED retrospective replay; no authenticated historical forecast or fitted-model issuance",
+  "quantization": "floor(p*65535+1/2) using exact rational arithmetic",
+  "reporting": "every prefix n>=128 for both point-mass models, plus both final issued receipts",
+  "revision_policy": "retain and hash original response bytes; do not refresh successful responses",
+  "source_revision": "7115830dd718744c38915dfca3be18eef0adb63a",
+  "status_at_freeze": "NO_STUDY_DATA_FETCHED",
+  "study_id": "weather-calibration-v1"
+}

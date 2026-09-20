@@ -1,0 +1,132 @@
+{
+  "base_protocol": {
+    "analysis": "brier_monitor",
+    "claim": {
+      "quantity": "posterior-averaged encountered conditional prefix Brier risk"
+    },
+    "data": {
+      "input_format": "csv",
+      "outcome_column": "outcome",
+      "prediction_encoding": "scaled_integer",
+      "prediction_scale": 65535,
+      "require_strict_time_order": true,
+      "time_column": "sequence_index"
+    },
+    "models": [
+      {
+        "column": "constant_fit_q",
+        "id": "constant_fit"
+      },
+      {
+        "column": "calibrated_gfs_q",
+        "id": "calibrated_gfs"
+      }
+    ],
+    "protocol_id": "certificate-live-2026",
+    "provenance": {
+      "evidence_sha256": null,
+      "prediction_timing": "PRE_OUTCOME",
+      "tier": "DECLARED"
+    },
+    "schema_version": "formalslt.brier-tabular-protocol.v1",
+    "statistics": {
+      "delta": "1/20",
+      "posterior": {
+        "calibrated_gfs": "0",
+        "constant_fit": "1"
+      },
+      "prior": {
+        "calibrated_gfs": "1/2",
+        "constant_fit": "1/2"
+      },
+      "tilt": "1/2",
+      "wake": 0
+    }
+  },
+  "protocol_id": "certificate-live-2026-constant_fit",
+  "schema_version": "formalslt.brier-mixture-protocol.v1",
+  "strategy_catalog": {
+    "atoms": [
+      {
+        "psi_upper": "103695103/536870912",
+        "tilt": "1/2",
+        "weight": "11863283/69021316"
+      },
+      {
+        "psi_upper": "355240889/4294967296",
+        "tilt": "370727/1048576",
+        "weight": "2493948/17255329"
+      },
+      {
+        "psi_upper": "161843269/4294967296",
+        "tilt": "1/4",
+        "weight": "2097152/17255329"
+      },
+      {
+        "psi_upper": "38119823/2147483648",
+        "tilt": "185363/1048576",
+        "weight": "3526975/34510658"
+      },
+      {
+        "psi_upper": "36642053/4294967296",
+        "tilt": "1/8",
+        "weight": "5931641/69021316"
+      },
+      {
+        "psi_upper": "17836005/4294967296",
+        "tilt": "92681/1048576",
+        "weight": "1246974/17255329"
+      },
+      {
+        "psi_upper": "4377691/2147483648",
+        "tilt": "1/16",
+        "weight": "1048576/17255329"
+      },
+      {
+        "psi_upper": "4321947/4294967296",
+        "tilt": "11585/262144",
+        "weight": "3526975/69021316"
+      },
+      {
+        "psi_upper": "2141893/4294967296",
+        "tilt": "1/32",
+        "weight": "57035/1327333"
+      },
+      {
+        "psi_upper": "66515/268435456",
+        "tilt": "11585/524288",
+        "weight": "623487/17255329"
+      },
+      {
+        "psi_upper": "529815/4294967296",
+        "tilt": "1/64",
+        "weight": "524288/17255329"
+      },
+      {
+        "psi_upper": "264081/4294967296",
+        "tilt": "11585/1048576",
+        "weight": "1763487/69021316"
+      },
+      {
+        "psi_upper": "131759/4294967296",
+        "tilt": "1/128",
+        "weight": "57035/2654666"
+      },
+      {
+        "psi_upper": "65765/4294967296",
+        "tilt": "181/32768",
+        "weight": "623487/34510658"
+      },
+      {
+        "psi_upper": "16427/2147483648",
+        "tilt": "1/256",
+        "weight": "262144/17255329"
+      }
+    ],
+    "catalog_id": "rational-half-octave-15-taylor24-v1",
+    "kl_upper_rule": "existing-dyadic-log-upper",
+    "negative_argument_lower_bound": "0",
+    "risk_scale": 1000000,
+    "taylor_terms": 24
+  }
+}
